@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.title{
+    text-align: left;
+    color: #3AAFA9;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    background-color: #24252A ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);;
+}
+
+.table-2, .table-1{
+    width: 600px;
+    margin: 40px 0px;
+}
+
+th{
+    text-align: left;
+}
+
+table, th, td{
+    border: 3px solid whitesmoke;
+    border-collapse: collapse;
+
+}
+
+table, th, td{
+    padding: 10px ;
+}
+
+caption{
+    text-align: left;
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+.html-title{
+    text-align: center;
+    color: #2bc5bd;
+}
+
+body{
+    background-color: #094441;
+}
+
+th,td{
+    color: #2bc5bd;
+}
+
+.ht-tables{
+    display: flex;
+}
+
+.table-2{
+    margin: 40px 20px;
+}
+
+footer{
+    height: auto;
+    background-color: #24252A ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.f-h1{
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.f-h3{
+    color: #2bc5bd;
+    font-size: large;
+}
+
+.f-h2{
+    color: #2bc5bd;
+    font-size: xx-large;
+    
+}
